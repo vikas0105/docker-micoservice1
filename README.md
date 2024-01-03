@@ -1,3 +1,5 @@
+once after installing docker compose run docker-compose up -d
+
 http://<EC2-ip> : Hello from Product Service
 
 http://<EC2-ip> : Hello from Order Service
