@@ -41,8 +41,6 @@ app.post('/products', async (req, res) => {
   }
 });
 
-// Additional routes and configurations go here
-
 const port = 3001;
 app.listen(port, () => {
   console.log(`Product Service listening at http://localhost:${port}`);
