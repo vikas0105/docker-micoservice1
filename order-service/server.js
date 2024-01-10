@@ -41,8 +41,6 @@ app.post('/orders', async (req, res) => {
   }
 });
 
-// Additional routes and configurations go here
-
 const port = 3002;
 app.listen(port, () => {
   console.log(`Order Service listening at http://localhost:${port}`);
